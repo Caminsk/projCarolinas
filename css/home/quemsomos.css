@@ -1,0 +1,45 @@
+.quemsomos-container{
+  max-width: 1200px;
+  background: #ffffff;
+  margin: 0 auto;
+  margin: 120px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.quemsomos-container::before{
+  content: url(/assets/Detalhe.svg);
+  position: absolute;
+  top: -50px;
+  left: -30px;
+}
+  
+.quemsomos img{
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.quemsomos-texto h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  text-align: center;
+  padding-top: 0px;
+}
+
+.quemsomos-texto{
+  padding: 30px 60px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  /* or 130% */
+  letter-spacing: 0.015em;
+}
+
+.quemsomos-texto li{
+  list-style-type: circle;
+  margin-left: 50px;
+}
